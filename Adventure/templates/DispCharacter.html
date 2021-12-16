@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Text Adventure</title>
+</head>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/StyleGuide.css') }}">
+<body>
+<p>These are the characters in the game:</p>
+{% for item in CharacterIndex %}
+	<p>{{ item }}</p>
+{% endfor %}
+<p>Which character do you want?: </p>
+<form method="POST">
+<input name="Char" id="Char" type="text"/>
+<input name="mySubmit0" id="mySubmit0" type = "submit" value = "Submit" />
+</form>
+</body>
+</html>

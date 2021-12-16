@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Text Adventure</title>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/StyleGuide.css') }}">
+<body>
+{{ "What would you like to add to " + Char + "'s inventory?" }}
+<form method="POST">
+<input name="Item" id="Item" type="text"/>
+<input name="mySubmit1" id="mySubmit1" type = "submit" value = "Submit" />
+</form>
+</body>
+</head>
+</html>

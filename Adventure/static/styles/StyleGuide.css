@@ -1,0 +1,35 @@
+body {
+	background-color: black;
+	color: #21ea15;
+}
+
+h1 {
+  color: #21ea15;
+  text-align: center;
+}
+
+p {
+  color: #21ea15;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box
+  border: 2px solid #21ea15;
+  background-color: black;
+  color: #21ea15;
+}
+
+input[type=submit] {
+	background-color: black;
+	border: 2 px solid #21ea15;
+	color: #21ea15;
+	padding: 16px 28px;
+	text-decoration: none;
+	margin: 1px 1px;
+	cursor: pointer;
+}
